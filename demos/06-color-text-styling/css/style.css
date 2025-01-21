@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: san-serif;
+    background-color: rgb(162, 212, 26);
+}
+#first-paragraph {
+    color: rgb(217, 13, 13);
+    background-color:blanchedalmond;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph {
+    color: rgb(213, 222, 213);
+    background-color:rgb(250, 76, 18);
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+#bold-paragrah {
+    color:rgb(237, 0, 150);
+    background-color:rgb(144, 205, 255);
+    font-weight: bolder;
+    font-family: seif;
+    font-family: cursive;
+}
+#span1{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#span2{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#span3{
+    background-color: yellow;
+}
+
+#span4{
+    text-align: right;
+}
+
+
+
+
