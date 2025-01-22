@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: san-serif;
+}
+
+.narrow {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: lightsalmon
+    
+}
+.narror {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: aquamarine;
+}
