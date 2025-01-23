@@ -18,9 +18,34 @@
 
 
 /* Drill 4 - Write your code solution below */
+.d4-div {
+    display: inline-block;
+}
+
 
 
 /* Drill 5 - Write your code solution below */
+.d5-div {
+    display: inline-block;
+}
+#d5-div1 {
+    width: 240px;
+}
+#d5-div2 {
+    width: 230px;
+}
+
+
 
 
 /* Drill 6 - Write your code solution below */
+#d6-div2,
+#d6-div3 {
+    display: inline-block;
+    width: 48%;
+}
+
+
+
+
+
