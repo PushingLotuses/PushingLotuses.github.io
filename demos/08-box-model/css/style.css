@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: san-serif;
+}
+
+div {
+    border: 20px outset rgb(0, 117, 128);
+    margin: 80px;
+    padding: 50px;
+    background-color: aqua;
+    
+}
+
+p {
+    border: 10px solid rgb(255, 0, 0);
+    margin: 60px;
+    padding: 48px;
+    background-color: rgb(207, 207, 235);
+    border-radius: 200px;
+}
+
+
