@@ -14,7 +14,7 @@ body {
 #palette-1-color-1 {
     background-color: #504136;
     color: white;
-    font-family: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 24px;
 }
@@ -32,3 +32,46 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 24px;
+}
+#palette-1-color-4 {
+    background-color: #994636;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-1-color-5 {
+    background-color: #CA907E;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-1-color-6 {
+    background-color: #DBD8AE;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-1-color-7 {
+    background-color: #413C58;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-1-color-8 {
+    background-color: #A4B0F5;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette-1-color-9 {
+    background-color: #93B7BE;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
