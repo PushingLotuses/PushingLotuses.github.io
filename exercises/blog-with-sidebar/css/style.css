@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: san-serif;
+}
+
+#grid-layout {
+    display: grid;
+    /* grid-template-columns: 250px 1fr; */
+    grid-template-columns: 1fr 450px 250px 1fr;
+    grid-template-areas: ". content sidebar .";
+    margin:  36px 0px;
+    
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: 1fr 3fr; */
+    /* grid-template-columns: 1000fr 1000fr; */
+}
+
+#sidebar-content {
+    /* background-color: lightblue; */
+    grid-area: sidebar;
+    padding: 18px;
+}
+
+#sidebar-content h2 {
+    background-color: darkslategray;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 0px 12px;
+    background-color: #efefef;
+    margin: 0px 0px 36px;
+    border: 1px solid darkslategrey;
+}
+
+#sidebar-content a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+#sidebar-content li {
+    padding: 8px 0px;
+    border-bottom: 1px solid darkslategray;
+}
+
+/* pseudo-class */
+
+#sidebar-content li:last-child {
+    border-bottom: 0px;
+
+}
+
+#sidebar-content li:hover {
+    background-color: darkslategray;
+}
+
+#sidebar-content li:hover a {
+    color: white;
+}
+#main-content {
+    /* background-color: lightgreen; */
+    grid-area: content;
+}
+
+#main-content:hover {
+    background-color: rgb(237, 211, 93);
+}
+
+
