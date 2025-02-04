@@ -76,7 +76,7 @@ body {
 }
 
 #sidebar ul a:hover {
-    background-color: #eeeeee;
+    background-color: #d2c5e7;
     border-radius: 12px;
     
     
@@ -86,10 +86,23 @@ body {
     flex: 250px;
     margin-right: 12px;
     margin-bottom: 24px;
+    padding: 15px;
 }
 
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, crimson, orange);
+    
     border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.metube-item a  {
+    color: rgb(57, 118, 159);
+    
 }
