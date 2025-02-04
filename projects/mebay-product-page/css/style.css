@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: san-serif;
+}
+#three-columns {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#column-1 {
+
+}
+
+#column-2 {
+    padding: 49px;
+}
+
+#column-3 {
+    
+}
