@@ -60,13 +60,19 @@ body {
     /* color: red; */
 }
 
-button {
-    padding: 15px 150px;
+a  {
+    padding: 15px 15px;
     font-size: 15px;
     cursor: pointer;
     outline: none;
-    color: black;
+    color: rgb(0, 0, 0);
     border-radius: 100px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    
     
     
     
