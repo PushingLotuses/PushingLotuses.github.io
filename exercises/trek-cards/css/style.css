@@ -8,3 +8,54 @@
     of the setup.css styling if you do so.
 */
 
+.card-style-1 {
+    max-width: 350px;
+    background-color: rgb(240, 255, 248);
+    justify-content: center;
+    box-shadow: 10px 10px 8px #00000060;
+    text-align: center;
+    margin: 18px;
+
+}
+
+.card-style-1 img {
+    width: 100%;
+}
+
+.card-style-1 h2 {
+    font-size: 25px;
+    margin-top: 12px;
+    /* text-shadow: #ffdbdb; */
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
+.card-style-1 p {
+    font-size: 16px;
+    padding: 30px ;
+    text-align: left;
+    
+}
+
+.card-style-1 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(32, 132, 48);
+    /* display: inline-block; */
+    display: block;
+    padding: 10px ;
+    /* padding: 20px 20px 10px ; */
+    text-align: center;
+    border: 3px solid transparent;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.card-style-1 a:hover {
+    background-color: transparent;
+    /* border: 3px solid rgb(232, 155, 217);
+    color: rgb(232, 155, 217); */
+}

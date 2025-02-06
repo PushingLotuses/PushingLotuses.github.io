@@ -24,6 +24,14 @@
 
 }
 
+#container-5 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    
+}
+
 
 /* Drill 5 - Write your code solution below */
 #container-5 {
