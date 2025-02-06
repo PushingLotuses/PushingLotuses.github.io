@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: san-serif;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+    /* border:  5px solid red; */
+}
+
+.card {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    border-radius: 5px;
+    padding: 10px;
+    /* x-offset y-oddset blur-radius color */
+    box-shadow: 16px 16px 8px #00000026;
+    /* box-shadow: inset 16px 16px 8px #00000026; */
+    /* background: linear-gradient(red, rgb(134, 198, 213)); */
+    /* background: linear-gradient(to right,red, rgb(134, 198, 213)); */
+    /* background: linear-gradient(to top,red, rgb(134, 198, 213)); */
+    /* background: linear-gradient(to top left,red, rgb(134, 198, 213)); */
+    /* background: linear-gradient(270deg,red, rgb(134, 198, 213)); */
+    /* background: linear-gradient(-50deg,red, rgb(134, 198, 213)); */
+    background: linear-gradient(
+        -50deg, 
+        #ffdbdb, 
+        #fff7f7, 
+        #ffc9c9
+    );
+    color: rgb(232, 155, 217);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    border: 2px solid #f8dbd0;
+    height: 150px;
+    object-fit: cover;
+    /* object-position: top; */
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    text-shadow: #ffdbdb;
+    margin-bottom: 0px;
+    
+    
+
+}
+
+.card p {
+    font-size: 18px;
+    /* text-shadow: 16px 16px 8px #00000026 ; */
+    flex: 1;
+}
+
+.card a {
+    color: rgb(232, 155, 217);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(246, 209, 209);
+    /* display: inline-block; */
+    display: block;
+    padding: 10px ;
+    /* padding: 20px 20px 10px ; */
+    text-align: center;
+    border: 3px solid transparent;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 3px solid rgb(232, 155, 217);
+    color: rgb(232, 155, 217);
+}
+
