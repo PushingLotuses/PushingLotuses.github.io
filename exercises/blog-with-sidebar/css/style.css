@@ -5,13 +5,10 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image:linear-gradient(180deg, 
-    rgb(215, 144, 36), 
-    rgb(123, 81, 17), 
-    tan);
+    background-image:
+        linear-gradient(180deg, rgb(215, 144, 36), rgb(123, 81, 17), tan);
     color: white;
 }
-
 
 #grid-layout {
     display: grid;
@@ -80,10 +77,6 @@ body {
     /* background-color: lightgreen; */
     grid-area: content;
     border: 20px;
-}
-
-#main-content:hover {
-    /* background-color: rgb(237, 211, 93); */
 }
 
 img {
