@@ -1,0 +1,40 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+
+.card-container {
+    max-width: 350px;
+    background-color: rgb(254, 238, 120);
+    justify-content: center;
+    text-align: left;
+    margin: 18px;
+    border-radius: 30px;
+    
+}
+
+.card-container img {
+    width: 100%;
+    border: 5px solid rgb(239, 205, 66);
+}
+
+.card-card-style-3 {
+    font-size: 25px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    padding: 15px;
+    
+}
+
+.health {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
