@@ -82,7 +82,7 @@ body {
     margin-bottom: 100px;
 }
 
-#hero .hero-content {
+#hero-3 .hero-content {
     position: absolute;
     top: 10%;
     left: 15%;
@@ -95,7 +95,7 @@ body {
 
 #hero-3 h4 {
     font-size: 24px;
-    margin: 0px;
+    margin: px;
 }
 
 #hero-3 a {
@@ -146,7 +146,7 @@ body {
 
 }
 
-.parrallax-banner {
+.parallax-banner {
     height: 50vh;
     margin: 100px 0px;
     background-image: url("../images/emerald-seas.jpg");
