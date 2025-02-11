@@ -8,7 +8,7 @@ body {
 }
 #three-columns {
     display: grid;
-    grid-template-columns: 110px 1fr 1fr;
+    grid-template-columns: 100px 1fr 1fr;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
