@@ -7,36 +7,27 @@ body {
     font-family: sans-serif;
 }
 
-#hero-1 {
-    background-image: url("../images/mayur.jpg");
-    height: 100vh;
+#hero-1 h1{
+    background-image: url("../images/jene.jpg");
+    height: 50vh;
     background-size: cover;
-    /* background-position: center;
-    background-position: center right;
-    background-position: left;
-    background-position: top; */
     background-position: center center;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    margin-bottom: 100px;
-
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
 }
 
 #hero-1 h1 {
     font-size: 120px;
-    /* padding-left: 650px; */
-    position: absolute;
-    left: 20%;
+    /* padding: 100px; */
+    color: rgb(255, 255, 255);
+    
 }
 
 #layout {
     max-width: 1000px;
     margin: 48px auto;
     text-align: center;
-}
-.basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 10px solid #333333;
@@ -47,7 +38,9 @@ body {
 }
 
 .horizontal-masonry-gallery img {
-    height: 250px;
-    flex: 1;
-    object-fit: cover;
+    width: 100%;
 }
+
+
+
+
