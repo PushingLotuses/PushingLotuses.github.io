@@ -32,6 +32,7 @@ p {
     border-radius: 100vw;
     cursor: pointer;
     transition: background-color 250em;
+    text-decoration: none;
 }
 
 #hero-1 a:hover,
