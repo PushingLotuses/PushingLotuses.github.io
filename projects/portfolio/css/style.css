@@ -23,27 +23,27 @@ p {
     font-family: "Genos", serif;
 }
 
-button {
+ #hero-1 a {
     font: inherit;
     padding: 0.7em 3em;
     background-color: #b81818;
-    border: 0.1 solid #ffffff;
+    border: 1px solid #ffffff;
     color: white;
     border-radius: 100vw;
     cursor: pointer;
     transition: background-color 250em;
 }
 
-button:hover,
-button:focus-visible {
-    background: red;
+#hero-1 a:hover,
+#hero-1 a:focus-visible {
+    background: rgb(80, 59, 178);
 }
 
 #hero-1 {
-    background-image: url("../images/hi-res/urban-hi-res-1ui7.jpg");
-    height: 55vh;
+    /* background-image: url("../images/hi-res/urban-hi-res-1ui7.jpg"); */
+    height: 54vh;
     background-size: cover;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 35px;
     display: flex ;
     flex-direction: column;
@@ -71,19 +71,19 @@ button:focus-visible {
 }
 
 h3 {
-    font-size: 20px;
-    position: absolute;
+    font-size: 30px;
+    /* position: absolute; */
     border-bottom: 20%;
-    padding: 40px;
+    padding: 1px;
     /* text-shadow: 2px 2px 7px black; */
 }
 .street-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 10px solid #b24949;
+    border: 4px solid #902020;
     border-radius: 30px;
     padding: 24px;
-    background-color: rgb(21, 21, 21);
+    background-color: rgba(21, 21, 21, 0.53);
     gap: 24px;
     
     
@@ -93,8 +93,7 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
-
+    border: 2px solid white;
 }
 
 .single-column {
@@ -122,5 +121,61 @@ p {
     bottom: 20%;
 }
 
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
 
+#card-section {
+    background-color: #6c444448;
+    color: #bfefff;
+    padding: 1px;
+    border-radius: 15px;
+}
 
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid #ffffff; */
+    
+    
+    
+    
+}
+
+.card {
+    flex: 50;
+    border: 3px solid #902020;
+    padding: 8px;
+    text-align: center;
+    margin: 36px;
+    
+    
+    
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: px;
+    /* padding: 10px; */
+}
+
+.card p {
+    font-size: 25px;
+    margin: 0.5px 0px 0px;
+    
+}
+
+.card a:hover {
+    color: #b81818;
+}
+
+.card a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.card a:active {
+    color: rgb(7, 5, 64);
+}
