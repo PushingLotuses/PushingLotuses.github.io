@@ -7,6 +7,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: black;
+    background-image: url("../images/hi-res/urban-hi-res-1ui7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -17,9 +23,25 @@ p {
     font-family: "Genos", serif;
 }
 
+button {
+    font: inherit;
+    padding: 0.7em 3em;
+    background-color: #b81818;
+    border: 0.1 solid #ffffff;
+    color: white;
+    border-radius: 100vw;
+    cursor: pointer;
+    transition: background-color 250em;
+}
+
+button:hover,
+button:focus-visible {
+    background: red;
+}
+
 #hero-1 {
     background-image: url("../images/hi-res/urban-hi-res-1ui7.jpg");
-    height: 50vh;
+    height: 55vh;
     background-size: cover;
     color: white;
     padding: 35px;
@@ -34,15 +56,16 @@ p {
     font-size: 8vw;
     /* position: absolute; */
     top: 20%;
-    padding: 5px;
+    padding: 50px;
     text-shadow: 2px 2px 7px black;
     margin: 10px;
+    /* background-color: #00000082; */
 }
 
 #hero-1 h2 {
     font-size: 20px;
     border-bottom: 20%;
-    padding: 1px;
+    padding: 10px;
     text-shadow: 2px 2px 7px black;
     margin: 1px;
 }
@@ -57,10 +80,12 @@ h3 {
 .street-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 10px solid #000000;
+    border: 10px solid #b24949;
+    border-radius: 30px;
     padding: 24px;
-    /* background-color: aquamarine; */
+    background-color: rgb(21, 21, 21);
     gap: 24px;
+    
     
 }
 
@@ -68,6 +93,7 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 
 }
 
@@ -79,14 +105,14 @@ h3 {
     
 }
 
-.parallax-banner {
+/* .parallax-banner {
     height: 50vh;
     margin: 100px 0px;
     background-image: url("../images/gallery-work/urban-20vb1.jpg");
     background-size: cover;
     background-attachment: fixed;
     color
-}
+} */
 
 p {
     /* background-color: #cccccc65; */
