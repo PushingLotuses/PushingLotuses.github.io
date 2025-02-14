@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: black;
+    background-color: rgb(172, 82, 82);
     background-image: url("../images/hi-res/urban-hi-res-1ui7.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -50,6 +50,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     
 }
 
