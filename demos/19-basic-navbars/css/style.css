@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+    color:  white;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, red, #3e6d3e);
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color:  white;
+    padding: 24px;
+}
+
+#navbar img {
+    width: 100px;
+
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 36px;
+    padding: 10px 24px;
+    min-width: 150px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 24px;
+    margin-left: 12px;
+    
+}
+
+#layout {
+   width: 800px;
+   margin: 118px auto;
+   font-size: 24px;
+   height: 100vh;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+    /* stick bar effect 2 tags */
+}
+
+#navbar-bottom {
+    background: linear-gradient( to bottom, yellowgreen, red) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+
