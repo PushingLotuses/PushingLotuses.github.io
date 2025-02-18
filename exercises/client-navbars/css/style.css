@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(140, 64, 29);
+    color:  white;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(255, 111, 0), #85643a);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color:  white;
+    padding: 24px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+}
+
+#layout {
+   width: 800px;
+   margin: 118px auto;
+   font-size: 24px;
+   height: 100vh;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+    /* stick bar effect 2 tags */
+}
+
+#navbar-bottom {
+    background: linear-gradient( to bottom, yellowgreen, red) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+
+#client-1 {
+    background-image: url("../images/mountains.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#client h1 {
+    font-size: 200px;
+    position: absolute;
+    align-items: center;
+    color: aqua;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.447);
+}
+
+#client-1 a {
+    font-size: 13px;
+    padding: 0.4em 0.4em;
+    background-color: #00000098;
+    border: 1px solid #ffffff;
+    color: white;
+    /* border-radius: 100vw; */
+    cursor: pointer;
+    transition: background-color 250em;
+    text-decoration: none;
+    position: relative;
+    left: 280px;
+    top: 100px;
+}
+
+#client a:hover,
+#client a:focus-visible {
+    background: rgba(0, 255, 255, 0.298);
+}
+
+#client-2 {
+    background-image: url("../images/featuredjungle.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#client-2 h1 {
+    font-size: 200px;
+    position: absolute;
+    align-items: center;
+    color: rgb(255, 251, 0);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.447);
+}
+
+#client-2 h2 {
+    position: absolute;
+    align-items: center;
+    color: rgb(48, 255, 6);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.447);
+    position: relative;
+    left: 170px;
+    top: 120px;
+}
+
+#client-2 a {
+    font-size: 13px;
+    padding: 0.4em 0.4em;
+    background-color: #00000098;
+    border: 1px solid #ffffff;
+    color: white;
+    /* border-radius: 100vw; */
+    cursor: pointer;
+    transition: background-color 250em;
+    text-decoration: none;
+    position: relative;
+    left: 280px;
+    top: 85px;
+}
+
+#client-2 a:hover,
+#client-2 a:focus-visible {
+    background: rgba(48, 255, 6, 0.283);
+}
+
+#client-3 {
+    background-image: url("../images/ocean.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#client-3 h1 {
+    font-size: 200px;
+    position: absolute;
+    align-items: center;
+    color: rgb(213, 2, 2);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.447);
+}
+
+#client-3 h2 {
+    font-size: 25px;
+    position: absolute;
+    align-items: center;
+    color: rgb(255, 255, 0);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.447);
+    position: relative;
+    left: 160px;
+    top: 120px;
+}
+
+#client-3 a {
+    font-size: 13px;
+    padding: 0.4em 0.4em;
+    background-color: #00000098;
+    border: 1px solid #ffffff;
+    color: white;
+    /* border-radius: 100vw; */
+    cursor: pointer;
+    transition: background-color 250em;
+    text-decoration: none;
+    position: relative;
+    left: 245px;
+    top: 110px;
+}
+
+#client-3 a:hover,
+#client-3 a:focus-visible {
+    background: rgba(81, 59, 178, 0.277);
+}
