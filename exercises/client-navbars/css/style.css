@@ -25,6 +25,20 @@ body {
     margin-right: auto;
 }
 
+#navbar .cta-button {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 36px;
+    padding: 10px 24px;
+    min-width: 15px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 24px;
+    margin-left: 12px;
+    
+}
+
 #layout {
    width: 800px;
    margin: 118px auto;
