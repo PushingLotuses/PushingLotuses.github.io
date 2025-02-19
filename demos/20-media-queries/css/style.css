@@ -168,8 +168,7 @@ body {
 
     .grid {
         grid-template-columns: 1fr;
-        grid-template-areas: 
-        ;
+        /* grid-template-areas: ; */
 
     }
     
@@ -178,6 +177,19 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .grid {
+        grid-template-columns: 1fr ;
+        grid-template-areas:
+         "txt1"
+         "img1"
+         "img2" 
+         "img2"
+         "img3" 
+         "img3" 
+         "img4" 
+         "txt2";
     }
 
 }
