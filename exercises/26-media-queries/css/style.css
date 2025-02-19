@@ -46,7 +46,7 @@ a {
 
 #nav a:hover,
 #footer a:hover {
-    color: purple;
+    color: rgb(236, 35, 35);
     text-decoration: underline;
 }
 
@@ -60,8 +60,9 @@ a {
 #nav {
     align-items: center;
     display: flex;
-    margin: 0 24px;
-    min-height: 50px;
+    justify-content: space-between;
+    margin: 0 30px;
+    min-height: 30px;
 }
 
 #footer {
@@ -70,7 +71,7 @@ a {
 }
 
 #nav-links {
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #nav-links,
@@ -101,7 +102,7 @@ a {
 
 #nav a:hover,
 #footer a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #nav ul,
@@ -211,3 +212,6 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+@media screen and (max-width: 768px) {
+    
+}
