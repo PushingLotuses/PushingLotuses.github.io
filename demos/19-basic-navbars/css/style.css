@@ -13,7 +13,7 @@ body {
     background: linear-gradient(to bottom, red, #3e6d3e);
     display: flex;
     /* justify-content: center; */
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
     /* justify-content: space-around; */
     /* justify-content: space-between; */
     /* justify-content: space-evenly; */

@@ -5,49 +5,62 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    height:100vh;
+    height: 100vh;
     background-size: cover;
+    background-color: #8c6291;
     background-position: center;
-    background-position: center right;
-    background-position: left;
-    background-position: top; 
-    background-position: center center;
+    /* background-position: center right; */
+    /* background-position: left; */
+    /* background-position: top;  */
+    /* background-position: center center; */
+    /* border-width: 10px;
+    border-style: solid; */
 }
 
 #homepage {
-    background-image: url(../images/wuzzles.jpg);
-}
+    background-image: url(../images/adoptmeplz_logo_eye.png);
+    background-size: 29%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}        
 
 #navbar {
     background: linear-gradient(
         to bottom,
-        #ecb96e, 
-        #000000);
+        #8c6291, 
+        #372d2d
+    );
     display: flex;
+    justify-content: center;
+    gap: 125px;
     align-items: center;
 }
 
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: rgb(159, 223, 236);
     padding: 24px;
-    display: inline-block;
+    display: inline-block; 
+    /* background-size: 90%;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-image: url(../images/AdoptMePlz.png); */
 }
 
 #navbar #logo {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 33px;
     margin-right: auto;
-    padding-top: 13px;
-    padding-bottom: 12px;
+    padding-top: 11px;
+    padding-bottom: 17px;
 }
 
 #navbar a:hover {
     background: linear-gradient(
         to top, 
-        #ecb96e, 
-        #000000
+        #5d4161, 
+        #483838
     );
 }
 /* Study these two positions */
@@ -75,16 +88,61 @@ body {
 }
 
 .dropdown-container:hover .fa-solid.fa-chevron-up  {
-        transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .dropdown-menu a {
-    background-color:  #000000d5;
+    background-color:  #392538eb;
     width: 100%;
     min-width: 200px;
-
+    box-shadow: 16px 16px 16px #00000048;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: #987847ee;
+    background: #82349aee;
 }
+
+#container {
+    text-align: center;
+    padding: 100px;
+    color: rgb(61, 55, 44);
+    /* text-shadow: 12px #000000; */
+}
+
+#container  img {
+    padding: 10px;
+    border: 5px solid #000000;
+    width: 15%;
+    border-radius: 10px;
+    background-color: #ecaae9;
+    object-fit: cover;
+    box-shadow: 16px 16px 16px #00000048;
+}
+
+.content {
+    min-height: 50px;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    align-items: center;
+    color: rgb(159, 223, 236);
+    background: linear-gradient(
+        to bottom,
+        #252525,
+        #a474a2, 
+        #252525
+    );
+}
+
+@media screen and (max-width: 480px){
+    body {
+        background: red;
+    }
+
+    
+}
+

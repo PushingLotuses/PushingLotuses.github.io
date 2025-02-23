@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-5 {
+    background-image: url("../images/city.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-5 .hero-content {
+    text-align: right;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+#hero-5 h2 {
+    font-size: 120px;
+    margin-bottom: 60px;
+}
+
+#hero-5 h4 {
+    font-size: 48px;
+}
+
+#main {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+}
