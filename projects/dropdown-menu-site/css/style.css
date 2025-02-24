@@ -6,24 +6,28 @@ body {
     margin: 0px;
     font-family: sans-serif;
     height: 100vh;
-    background: #8c6291;
-    /* background: linear-gradient(to top, #8c6291, #ffb3c6); */
-    background-size: cover;
-    /* background-position: center;
-    background-position: center right; */
-    /* background-position: left;
-    background-position: top; 
-    background-position: center center; 
-    border-style: solid; */
-}                         
+    background: linear-gradient(to top, #8c6291, #ffb3c6);
+} 
 
-#homepage {
+#hero-image {
     background-image: url(../images/adoptmeplz_logo_eye.png);
-    background-size: 29%;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center center; 
-    /* background-image: url(../images/adoptmeplz_logo_eye.png); */
-}        
+
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#logo img {
+    width: 400px;
+}
 
 #navbar {
     background: linear-gradient(
@@ -42,7 +46,6 @@ body {
     text-decoration: none;
     color: rgb(159, 223, 236);
     padding: 24px;
-    display: inline-block; 
     /* background-size: 90%;
     /* background-repeat: no-repeat; */
     /* background-position: center center; */
@@ -53,8 +56,8 @@ body {
     font-weight: bold;
     font-size: 33px;
     margin-right: auto;
-    padding-top: 11px;
-    padding-bottom: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 #navbar a:hover {
@@ -109,15 +112,17 @@ body {
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    /* text-align: center; */
-    padding: 100px;
-    color: #ecaae9;
-    /* text-shadow: 12px #000000; */
+    padding: 50%px;
+    color: #504354ee;
+    max-width: 80px0;
+    margin: 48px auto;
+    
 }
 
 #container  img {
+    min-width: 350px;
     padding: 10px;
-    border: 5px solid #000000;
+    /* border: 5px solid #000000; */
     width: 15%;
     border-radius: 10px;
     background-color: #ecaae9;
@@ -126,7 +131,7 @@ body {
 }
 
 .content {
-    min-height: 50px;
+    min-height: 10px;
     /* border: 3px solid black; */
     display: flex;
     flex-direction: column;
@@ -144,11 +149,95 @@ body {
     );
 }
 
+@media screen and (max-width: 1190px){
+    body {
+        background: rgb(0, 255, 208);
+    }
+    #navbar {
+        background: linear-gradient(
+            to bottom,
+            #8c6291, 
+            #372d2d
+        );
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+        align-items: stretch;
+        position: relative;
+    }
+
+    #navbar #logo {
+        font-weight: bold;
+        font-size: 33px;
+        margin-right: 0;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    #navbar a:hover {
+        background: linear-gradient(
+            to top, 
+            #5d4161, 
+            #483838
+        );
+    }
+
+    .dropdown-container {
+        position: relative; /* Study */
+    }
+    
+    .dropdown-menu {
+        right: 1px;
+        /* left: 100%; */
+        position: absolute; /* Study */
+        opacity: 0;
+        visibility: hidden;
+        transition:
+            opacity 0.25s,
+            visibility 0.25s;
+    }
+    
+    .dropdown-container:last-child .dropdown-menu {
+        right: 0px;
+    }
+    
+    .dropdown-container:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .dropdown-container:hover .fa-solid.fa-chevron-up  {
+        transform: rotate(180deg);
+    }
+    
+    .dropdown-menu a {
+        background-color:  #392538eb;
+        width: 100%;
+        min-width: 200px;
+        box-shadow: 16px 16px 16px #00000048;
+    }
+    
+    #navbar .dropdown-menu a:hover {
+        background: #504354ee;
+    }
+
+    
+    
+}   
 @media screen and (max-width: 480px){
     body {
         background: red;
     }
-
-    
+    #navbar {
+        background: linear-gradient(
+            to bottom,
+            #8c6291, 
+            #372d2d
+        );
+        display: flex;
+        justify-content: center;
+        gap: 1px;
+        align-items: center;
+    }
 }
-
