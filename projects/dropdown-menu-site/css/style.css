@@ -6,22 +6,23 @@ body {
     margin: 0px;
     font-family: sans-serif;
     height: 100vh;
+    background: #8c6291;
+    /* background: linear-gradient(to top, #8c6291, #ffb3c6); */
     background-size: cover;
-    background-color: #8c6291;
-    background-position: center;
-    /* background-position: center right; */
-    /* background-position: left; */
-    /* background-position: top;  */
-    /* background-position: center center; */
-    /* border-width: 10px;
+    /* background-position: center;
+    background-position: center right; */
+    /* background-position: left;
+    background-position: top; 
+    background-position: center center; 
     border-style: solid; */
-}
+}                         
 
 #homepage {
     background-image: url(../images/adoptmeplz_logo_eye.png);
     background-size: 29%;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; 
+    /* background-image: url(../images/adoptmeplz_logo_eye.png); */
 }        
 
 #navbar {
@@ -63,14 +64,14 @@ body {
         #483838
     );
 }
-/* Study these two positions */
+
 .dropdown-container {
-    position: relative;
+    position: relative; /* Study */
 }
 
 .dropdown-menu {
     right: 0px;
-    position: absolute;
+    position: absolute; /* Study */
     opacity: 0;
     visibility: hidden;
     transition:
@@ -99,13 +100,18 @@ body {
 }
 
 #navbar .dropdown-menu a:hover {
-    background: #82349aee;
+    background: #504354ee;
 }
 
 #container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    /* text-align: center; */
     padding: 100px;
-    color: rgb(61, 55, 44);
+    color: #ecaae9;
     /* text-shadow: 12px #000000; */
 }
 
