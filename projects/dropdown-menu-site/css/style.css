@@ -6,7 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
     height: 100vh;
-    background: linear-gradient(to top, #8c6291, #ffb3c6);
+    background: linear-gradient(to top, teal, #8c6291, #ffb3c6);
 } 
 
 #hero-image {
@@ -14,15 +14,14 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center; 
-
 }
 
 #homepage {
     display: flex;
     flex-direction: column;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; 
+    /* background-repeat: no-repeat; */
+    /* background-position: center center;  */
 }
 
 #logo img {
@@ -132,6 +131,7 @@ body {
 
 .content {
     min-height: 10px;
+    border-radius: 13px;
     /* border: 3px solid black; */
     display: flex;
     flex-direction: column;
@@ -153,6 +153,15 @@ body {
     body {
         background: rgb(0, 255, 208);
     }
+
+    #hero-image {
+        background-image: url(../images/adoptmeplz_logo_eye.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 400px; 
+    }
+    
     #navbar {
         background: linear-gradient(
             to bottom,
@@ -229,6 +238,15 @@ body {
     body {
         background: red;
     }
+
+    #hero-image {
+        background-image: url(../images/adoptmeplz_logo_eye.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 300px; 
+    }
+
     #navbar {
         background: linear-gradient(
             to bottom,
@@ -236,6 +254,7 @@ body {
             #372d2d
         );
         display: flex;
+        flex-direction: column;
         justify-content: center;
         gap: 1px;
         align-items: center;
