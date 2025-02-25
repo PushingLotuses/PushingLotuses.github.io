@@ -5,15 +5,23 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    height: 100vh;
-    background: linear-gradient(to top, #8c6291, #ffb3c6);
-} 
+    background-image:  linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.985),
+        rgba(0, 0, 0, 0)
+    ), url(../images/colombian-rest.jpeg);
+}
+
+p {
+    color: white;
+}
 
 #hero-image {
-    background-image: url(../images/adoptmeplz_logo_eye.png);
+    background-image:  url(../images/Yepas-logo-2.png);
     height: 100vh;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: right; 
+    background-position: top;
 
 }
 
@@ -26,17 +34,18 @@ body {
 }
 
 #logo img {
-    width: 400px;
+    width: 130px;
 }
 
 #navbar {
     background: linear-gradient(
         to bottom,
-        red, 
-       rgba(255, 255, 0, 0.383)
-    ), url(../images/adoptmeplz_logo_eye.png);
+       red, 
+       #FFCE04,
+       rgba(0, 0, 0, 0.401) 
+    );
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 125px;
     align-items: center;
 }
@@ -44,8 +53,9 @@ body {
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: rgb(159, 223, 236);
+    color: rgb(0, 0, 0);
     padding: 24px;
+    font-weight: bold;
     /* background-size: 90%;
     /* background-repeat: no-repeat; */
     /* background-position: center center; */
@@ -54,22 +64,27 @@ body {
 
 #navbar #logo {
     font-weight: bold;
-    font-size: 33px;
+    font-size: 3px;
     margin-right: auto;
     padding-top: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
 }
 
 #navbar a:hover {
     background: linear-gradient(
         to top, 
-        #5d4161, 
-        #483838
+        rgb(180, 1, 1), 
+        /* rgb(255, 170, 0),
+        rgba(0, 0, 0, 0.4) */
     );
 }
 
 .dropdown-container {
     position: relative; /* Study */
+}
+
+#navbar .dropdown-menu a {
+    color: rgb(255, 0, 0);
 }
 
 .dropdown-menu {
@@ -96,14 +111,14 @@ body {
 }
 
 .dropdown-menu a {
-    background-color:  #392538eb;
+    background-color: #ffcd04 ;
     width: 100%;
     min-width: 200px;
     box-shadow: 16px 16px 16px #00000048;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: #504354ee;
+    background:  #253c80a6;
 }
 
 #container {
@@ -178,8 +193,8 @@ body {
     #navbar a:hover {
         background: linear-gradient(
             to top, 
-            #5d4161, 
-            #483838
+            red, 
+            yellow
         );
     }
 
