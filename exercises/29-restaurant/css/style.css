@@ -215,6 +215,37 @@ body {
     font-size: 24px;
 }
 
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+/* .text-container h3 {
+    background: white;
+} */
+
+.image-container {
+    background: rgb(237, 155, 47);
+}
+
 @media screen and (max-width: 480px){
     body {
         background: rgb(0, 255, 208);
