@@ -3,6 +3,7 @@
 }
 
 body {
+    min-height: 100vh;
     margin: 0px;
     font-family: sans-serif;
     background-image:  linear-gradient(
@@ -10,19 +11,27 @@ body {
         rgba(0, 0, 0, 0.985),
         rgba(0, 0, 0, 0)
     ), url(../images/colombian-rest.jpeg);
-}
-
-p {
-    color: white;
+    background-size: cover;
 }
 
 #hero-image {
     background-image:  url(../images/Yepas-logo-2.png);
+    /* background-color: #FFCE04; */
     height: 100vh;
     background-repeat: no-repeat;
     background-position: right; 
     background-position: top;
+    position: sticky;
+    top: 0px;
+    
+}
 
+#hero-image-1 {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-position: top;
+    text-align: left;
 }
 
 #homepage {
@@ -30,7 +39,15 @@ p {
     flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
+}
+
+#homepage-1 {
+    background-image:  linear-gradient(
+        180deg,
+        rgb(0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ), url(../images/colombian-rest-washout.jpg);
 }
 
 #logo img {
@@ -42,12 +59,16 @@ p {
         to bottom,
        red, 
        #FFCE04,
-       rgba(0, 0, 0, 0.401) 
+       rgb(0, 0, 0) 
     );
     display: flex;
     justify-content: space-between;
     gap: 125px;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 200;
+    
 }
 
 #navbar a {
@@ -108,6 +129,7 @@ p {
 
 .dropdown-container:hover .fa-solid.fa-chevron-up  {
     transform: rotate(180deg);
+    color: red;
 }
 
 .dropdown-menu a {
@@ -164,7 +186,36 @@ p {
     );
 }
 
-@media screen and (max-width: 1190px){
+#footer {
+    background: linear-gradient(
+        to bottom, 
+        red, 
+       #FFCE04,
+       rgb(0, 0, 0) 
+    );
+    color: rgb(0, 0, 0);
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 480px){
     body {
         background: rgb(0, 255, 208);
     }
