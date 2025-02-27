@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Genos:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
+
 * {
     
     box-sizing: border-box;
@@ -33,10 +35,13 @@ body {
 } 
 
 /* .orbitron-<uniquifier> {
-  font-family: "Orbitron", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
 
-     */
+/* @media screen { max-width: , min-width: ;;
+    
+} */
+
