@@ -189,7 +189,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     background: #c4a117e2;
-    padding: 20px;
+    padding: 60px;
 
 
 }
@@ -323,7 +323,7 @@ h1, h3, h4 {
             #c4a117,
             rgb(26, 26, 26) 
         );
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         flex-direction: column;
         gap: 1px;
@@ -350,5 +350,44 @@ h1, h3, h4 {
     #footer a {
         text-decoration: none;
         color: rgb(0, 0, 0);
+    }
+
+    .dropdown-container {
+        position: relative; /* Study */
+    }
+    
+    #navbar .dropdown-menu a {
+        color: rgb(255, 0, 0);
+    }
+    
+    .dropdown-menu {
+        right: 0px;
+        position: absolute; /* Study */
+        opacity: 0;
+        visibility: hidden;
+        transition:
+            opacity 0.25s,
+            visibility 0.25s;
+    }
+    
+    .dropdown-container:last-child .dropdown-menu {
+        right: 0px;
+    }
+    
+    .dropdown-container:hover .dropdown-menu {
+        opacity: 0;
+        visibility: visible;
+    }
+    
+    .dropdown-container:hover .fa-solid.fa-chevron-up  {
+        transform: rotate(180deg);
+        color: red;
+    }
+    
+    .dropdown-menu a {
+        background-color: #04ff5c ;
+        width: 100%;
+        min-width: 200px;
+        box-shadow: 16px 16px 16px #00000048;
     }
 }
