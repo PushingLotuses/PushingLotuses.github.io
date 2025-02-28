@@ -25,9 +25,6 @@ body {
     
 }
 
-#hero-image-1 h1 {
-    text-align: left;
-}
 
 #hero-image-1 {
     /* height: 100vh; */
@@ -37,6 +34,10 @@ body {
     text-align: left;
     width: 79%;
     margin: 0px auto;
+}
+
+#hero-image-1 h1 {
+    text-align: left;
 }
 
 #homepage {
@@ -62,10 +63,10 @@ body {
 #navbar {
     background: linear-gradient(
         to bottom,
-       red, 
-       #FFCE04,
-       rgb(0, 0, 0) 
-    );
+        red, 
+        #FFCE04,
+        rgb(0, 0, 0) 
+     );
     display: flex;
     justify-content: space-between;
     gap: 125px;
@@ -89,10 +90,6 @@ body {
     color: rgb(0, 0, 0);
     padding: 24px;
     font-weight: bold;
-    /* background-size: 90%;
-    /* background-repeat: no-repeat; */
-    /* background-position: center center; */
-    /* background-image: url(../images/AdoptMePlz.png); */
 }
 
 #navbar #logo {
@@ -255,7 +252,7 @@ h1, h3, h4 {
 }
 
 .side-by-side .image-container {
-    flex: 1;
+    flex: 0.5;
 }
 
 .side-by-side .text-container {
@@ -271,106 +268,20 @@ h1, h3, h4 {
     font-size: 38px;
 }
 
-/* .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-} */
-
-/* .text-container h1, h3  {
-    color: white;
-} */
-
-.image-container {
-    /* background: rgb(237, 155, 47); */
-}
-
 @media screen and (max-width: 480px){
-    body {
-        background: rgb(0, 255, 208);
-    }
-    #navbar {
-        background: linear-gradient(
-            to bottom,
-            #8c6291, 
-            #372d2d
-        );
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        gap: 12px;
-        align-items: stretch;
-        position: relative;
-    }
-
-    #navbar #logo {
-        font-weight: bold;
-        font-size: 33px;
-        margin-right: 0;
-        padding-top: 6px;
-        padding-bottom: 6px;
-    }
-    #navbar a:hover {
-        background: linear-gradient(
-            to top, 
-            red, 
-            yellow
-        );
-    }
-
-    .dropdown-container {
-        position: relative; /* Study */
-    }
-    
-    .dropdown-menu {
-        right: 1px;
-        /* left: 100%; */
-        position: absolute; /* Study */
-        opacity: 0;
-        visibility: hidden;
-        transition:
-            opacity 0.25s,
-            visibility 0.25s;
-    }
-    
-    .dropdown-container:last-child .dropdown-menu {
-        right: 0px;
-    }
-    
-    .dropdown-container:hover .dropdown-menu {
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    .dropdown-container:hover .fa-solid.fa-chevron-up  {
-        transform: rotate(180deg);
-    }
-    
-    .dropdown-menu a {
-        background-color:  #392538eb;
-        width: 100%;
-        min-width: 200px;
-        box-shadow: 16px 16px 16px #00000048;
-    }
-    
-    #navbar .dropdown-menu a:hover {
-        background: #504354ee;
-    }
-}   
-/* @media screen and (max-width: 480px){
     body {
         background: red;
     }
     #navbar {
         background: linear-gradient(
             to bottom,
-            #8c6291, 
-            #372d2d
+            red, 
+            yellow
         );
         display: flex;
         justify-content: center;
+        flex-direction: column;
         gap: 1px;
         align-items: center;
     }
-} */
+}
