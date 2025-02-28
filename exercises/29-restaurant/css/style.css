@@ -22,7 +22,22 @@ body {
     background-position: top;
     position: sticky;
     top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+#hero-image a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    border: 2px solid #ffe4da;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgba(197, 34, 34, 0.656);
 }
 
 
@@ -34,10 +49,12 @@ body {
     text-align: left;
     width: 79%;
     margin: 0px auto;
+    
 }
 
 #hero-image-1 h1 {
     text-align: left;
+    
 }
 
 #homepage {
@@ -63,8 +80,9 @@ body {
 #navbar {
     background: linear-gradient(
         to bottom,
-        red, 
-        #FFCE04,
+        rgb(0, 0, 0), 
+        #c4a217,
+        #c4a217,
         rgb(0, 0, 0) 
      );
     display: flex;
@@ -74,13 +92,31 @@ body {
     position: sticky;
     top: 0px;
     z-index: 200;
+    justify-content: flex-end;
     
+}
+
+#footer {
+    background: linear-gradient(
+        to bottom, 
+        rgb(0, 0, 0), 
+        #c4a217,
+        #c4a217,
+        rgb(0, 0, 0) 
+    );
+    color: rgb(0, 0, 0);
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 #footer-navbar {
     display: flex;
     justify-content: space-evenly;
-    gap: 125px;
+    /* gap: 125px; */
     align-items: center;
 }
 
@@ -148,6 +184,26 @@ body {
     box-shadow: 16px 16px 16px #00000048;
 }
 
+#menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #c4a117e2;
+
+
+}
+
+#menu .item {
+    width: 50%;
+    text-align: center;
+}
+
+#menu .item img {
+    width: 20%;
+}
+
+
+
 #navbar .dropdown-menu a:hover {
     background:  #253c80a6;
 }
@@ -162,6 +218,7 @@ p {
 .text-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 h1, h3, h4 {
@@ -215,22 +272,6 @@ h1, h3, h4 {
     );
 }
 
-#footer {
-    background: linear-gradient(
-        to bottom, 
-        red, 
-       #FFCE04,
-       rgb(0, 0, 0) 
-    );
-    color: rgb(0, 0, 0);
-    padding: 12px;
-}
-
-#footer a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
 #navbar {
     width: 100%;
     margin: 0px auto;
@@ -270,18 +311,43 @@ h1, h3, h4 {
 
 @media screen and (max-width: 480px){
     body {
-        background: red;
+        background: rgb(255, 0, 0);
     }
+    
     #navbar {
         background: linear-gradient(
             to bottom,
-            red, 
-            yellow
+            rgb(0, 0, 0), 
+            #c4a117fb,
+            #c4a117,
+            rgb(26, 26, 26) 
         );
         display: flex;
         justify-content: center;
         flex-direction: column;
         gap: 1px;
         align-items: center;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer {
+        background: linear-gradient(
+            to bottom, 
+            rgba(0, 0, 0, 0.623), 
+            #c4a11794,
+            #c4a11795,
+            rgba(0, 0, 0, 0.57) 
+        );
+        color: rgb(0, 0, 0);
+        padding: 12px;
+    }
+    
+    #footer a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
     }
 }
