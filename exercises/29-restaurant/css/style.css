@@ -197,6 +197,7 @@ body {
     flex-direction: column;
     padding: 30px;
     align-items: center;
+    align-content: center;
 }
 
 #menu .item img {
