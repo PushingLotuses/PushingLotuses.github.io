@@ -54,6 +54,14 @@ body {
 
 #hero-image-1 h1 {
     text-align: left;
+    background: linear-gradient(
+        to right, 
+        yellow,
+        blue,
+        red
+    );
+    background-clip: text;
+    color: transparent;
     
 }
 
@@ -173,6 +181,54 @@ body {
     box-shadow: 16px 16px 16px #00000048;
 }
 
+#about {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #000000d4;
+    padding: 60px;
+    border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);   
+}
+
+#about img {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#about-1 img {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#about-1 h3 {
+    color: white; 
+}
+
+#about-3 {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#about-3 img {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px; 
+}
+
+#about-3 h3 {
+    color: #ffffff;
+}
+
+#kings #about-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
 #menu {
     display: flex;
     justify-content: center;
@@ -181,8 +237,6 @@ body {
     padding: 60px;
     /* border-radius: 27px; */
     border: 5px solid rgb(255, 255, 255);
-
-
 }
 
 #menu .item {
@@ -202,7 +256,6 @@ body {
 
 #menu .item img {
     width: 20%;
-    
 }
 
 #menu p {
@@ -231,12 +284,22 @@ p {
     align-items: center;
 }
 
-h1, h3, h4 {
-    /* display: flex;
-    flex-direction: column; */
+h4 {
     text-align: center;
     align-items: center;
-    color: white; 
+    color: rgb(125, 155, 247);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
 }
 
 #container {
@@ -309,6 +372,14 @@ h1, h3, h4 {
 
 .side-by-side .text-container h3 {
     font-size: 38px;
+    background: linear-gradient(
+        to right, 
+        yellow,
+        blue,
+        red
+    );
+    background-clip: text;
+    color: transparent;
 }
 
 #footer {
